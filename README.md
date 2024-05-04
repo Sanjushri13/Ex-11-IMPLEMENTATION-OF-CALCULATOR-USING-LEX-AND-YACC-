@@ -39,7 +39,7 @@ mem {return MEM;}
 \n|. return yytext[0];
 %%
 ```
-Program:calculator.y file
+Program: calculator.y file
 ```
 %{
 double memvar;
